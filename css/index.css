@@ -25,19 +25,56 @@ img{
 /* .demo-layout-transparent.mdl-layout.mdl-js-layout{
     
 } */
-
 .mdl-grid{
-   margin: 40px;
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
 }
-.mdl-grid.texto{
-    display: block;
+/* .mdl-grid.projects{
+   margin-right: 50px;
+} */
+.mdl-grid.text{
+    text-align: center;
 }
 
+.mdl-cell{
+    padding: 0 10px;
+    float: left;
+}
+.mdl-cell.mdl-cell--3-col{
+    background-color:#1b262c;
+    border-radius: 20px;
+    padding: 6px;
+    align-items: center;
+}
+.mdl-cell.mdl-cell--3-col.html img{
+    margin-left: 40px ;
+}
+.mdl-cell.mdl-cell--12-col.projects.git{
+    display: inline;
+    padding: 60px;
+}
+.mdl-cell.mdl-cell--12-col.form label, input{
+    color: rgb(255, 255, 255);
+}
 
-
+.mdl-layout__content{
+    padding: 40px 20px 40px 20px;
+    float: left;
+}
 .mdl-mega-footer{
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+}
+
+
+
+/* .mdl-mega-footer{
     background-color: #010b13;
     position:absolute;
     bottom:0;
     width: 1760px;
-}
+} */
